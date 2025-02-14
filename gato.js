@@ -23,16 +23,16 @@ function gato2() {
 }
 
 const posiblesGanes = [
-    [0,1,2],[3,4,5],[6,7,8],
-    [0,3,6],[1,4,7],[2,5,8],
-    [0,4,8],[2,4,6]
+    [0, 1, 2], [3, 4, 5], [6, 7, 8],
+    [0, 3, 6], [1, 4, 7], [2, 5, 8],
+    [0, 4, 8], [2, 4, 6]
 ]
 
 function hayGanador() {
     for (const posicion of posiblesGanes) {
-        const [posA,posB,posC] = posicion
+        const [posA, posB, posC] = posicion
         if (gato[posA].textContent != "" && gato[posA].textContent === gato[posB].textContent && gato[posA].textContent === gato[posC].textContent) {
-            alert("HAY UN GANADOR")
+            alert("hay un ganador")
         }
     }
 }

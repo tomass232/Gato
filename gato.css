@@ -1,17 +1,20 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-aside{
+
+aside {
     width: 500px;
     height: 500px;
     margin-top: 50px;
 }
-body{
+
+body {
     background-color: whitesmoke;
 }
-.gato{
+
+.gato {
     background-color: pink;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -23,14 +26,16 @@ body{
     font-size: 5pc;
     justify-content: stretch;
 }
-.contenedor{
+
+.contenedor {
     margin-top: 20px;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
     align-content: center;
 }
-.gatos{
+
+.gatos {
     border: 1px solid white;
     display: flex;
     display: grid;
