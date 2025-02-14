@@ -3,3 +3,36 @@
     margin: 0;
     padding: 0;
 }
+aside{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+body{
+    background-color: whitesmoke;
+}
+.gato{
+    background-color: pink;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    font-size: 5pc;
+    justify-content: stretch;
+}
+.contenedor{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    align-content: center;
+}
+.gatos{
+    border: 1px solid white;
+    display: flex;
+    display: grid;
+    place-items: center;
+}
