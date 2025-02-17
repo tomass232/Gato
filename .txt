@@ -1,0 +1,7 @@
+Este proyecto es un juego del gato hecho con HTML, CSS y JavaScript. 
+La estructura del juego está en el archivo HTML, donde se creó un tablero de 3x3 con divs representando las casillas y se añadieron elementos 
+como un contador de victorias, empates y derrotas, además de un botón para reiniciar la partida. 
+En el CSS se usaron colores como el rosado para las casillas y los botones, y un fondo blanco humo para la página. También se aplicaron estilos 
+como bordes redondeados y efectos de transición al pasar sobre las casillas. 
+En JavaScript se programó la lógica del juego, permitiendo jugar contra otro jugador o contra la computadora, almacenando el marcador en 
+localStorage para que se mantenga al recargar la página.
