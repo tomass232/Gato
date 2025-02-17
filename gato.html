@@ -4,39 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gato</title>
     <link rel="stylesheet" href="gato.css">
 </head>
 
 <body>
     <div class="contenedor">
-        <div>
-            <div class="partidas">
-                <br>
-                <span id="ganador"></span>
-                <br>
-                <span id="empate"></span>
-                <br>
-                <span id="perdedor"></span>
-            </div>
+        <h1>Gato</h1>
+        <div class="modo-juego">
+            <label>
+                <input type="radio" name="modo" value="cpu" checked> un solo jugador
+            </label>
+            <label>
+                <input type="radio" name="modo" value="pvp"> multi jugador
+            </label>
         </div>
-        <br>
-        <aside id="conteiner">
+        <div class="turno">Turno de: <span id="turno-actual">X</span></div>
+        <div class="partidas">
+            <span id="ganador">Victorias: 0</span>
+            <span id="empate">Empates: 0</span>
+            <span id="perdedor">Derrotas: 0</span>
+        </div>
+        <button id="reiniciar">Reiniciar</button>
+        <aside class="container2" id="container">
             <div class="gato">
-                <div class="gatos"></div>
-                <div class="gatos"></div>
-                <div class="gatos"></div>
-                <div class="gatos"></div>
-                <div class="gatos"></div>
-                <div class="gatos"></div>
-                <div class="gatos"></div>
-                <div class="gatos"></div>
-                <div class="gatos"></div>
+                <div class="gatos" data-index="0"></div>
+                <div class="gatos" data-index="1"></div>
+                <div class="gatos" data-index="2"></div>
+                <div class="gatos" data-index="3"></div>
+                <div class="gatos" data-index="4"></div>
+                <div class="gatos" data-index="5"></div>
+                <div class="gatos" data-index="6"></div>
+                <div class="gatos" data-index="7"></div>
+                <div class="gatos" data-index="8"></div>
             </div>
-        </aside>
-
-
-    </div>
+        </aside></div>
     <script src="gato.js"></script>
 </body>
 
